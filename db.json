@@ -24,6 +24,21 @@
       "nombre": "Jugo de Fresa",
       "precio": "200",
       "id": 5
+    },
+    {
+      "nombre": "Hamburguesa",
+      "precio": 400,
+      "id": 6
+    },
+    {
+      "nombre": "Kebab",
+      "precio": 2,
+      "id": 7
+    },
+    {
+      "nombre": "Eye Rib",
+      "precio": 400,
+      "id": 8
     }
   ]
 }
