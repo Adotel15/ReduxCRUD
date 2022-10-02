@@ -1,6 +1,24 @@
 
+// Actions de redux 
+import { crearNuevoProductoAction } from "../actions/productoActions"
 
 const NuevoProducto = () => {
+
+    const agregarProducto
+
+    const submitNuevoProducto = event => {
+
+        event.preventDefault()
+
+        // Validar formulario
+        if([ nombre, precio ].includes('')){
+
+        }
+
+        // Si no hay errores
+
+        // Crear el nuevo producto
+    }
 
     return (
         <div className = "row justify-content-center">
@@ -11,7 +29,9 @@ const NuevoProducto = () => {
                             Agregar Nuevo producto
                         </h2>
 
-                        <form>
+                        <form
+                            onSubmit = {submitNuevoProducto}
+                        >
                             <div className = "form-group">
                                 <label>Nombre Producto</label>
                                 <input
