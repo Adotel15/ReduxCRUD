@@ -8,7 +8,7 @@ const NuevoProducto = () => {
                 <div className = "card">
                     <div className = "card-body">
                         <h2 className = "text-center mb-4 font-weight-bold">
-                            Agregar Nuevo productos
+                            Agregar Nuevo producto
                         </h2>
 
                         <form>
@@ -30,6 +30,13 @@ const NuevoProducto = () => {
                                     name = "precio"
                                 />
                             </div>
+
+                            <button
+                                type = "submit"
+                                className= "btn btn-primary font-weight-bold text-uppercase d-block w-100"
+                            >
+                                Agregar Producto
+                            </button>
 
                         </form>
                     </div>
